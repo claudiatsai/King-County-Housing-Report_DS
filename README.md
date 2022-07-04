@@ -2,7 +2,7 @@
 
 The market report is aimed at the home buyers in King County, WA. <br>
 The report provides EDA and price prediction model for potential home buyers to make a better decision.<br>
-Hopefully with the research and suggestion, the key to the dream home can be our clients.
+
 
 ## Most Common Questions Asked by Home Buyers
 
@@ -94,16 +94,13 @@ The report provides several linear regression models to explain how the features
 - Baseline model with sqft_living
 - Add categorial variables like bedrooms, bathrooms, waterfront, view and condition and then eliminate the features with p-value greater than 0.05
 - Add zipcode variables, and then eliminate the features with p-value greater than 0.05
-- Use Recursive Feature Elimination to select the most important 70 features
-- The final model can explain 84% of variants in price to predict housing prices in King County
 
-![King%20County%20Market%20Report.png](attachment:King%20County%20Market%20Report.png)
+
+## Final Model
+
+Final model can explain 84% of variants in price to predict housing prices in King County
 
 <img src ="image/predicted_test.png"/>
-
-With Recursive Feature Elimination, 80 features is chosen and the final model accounts for 74 % of the housing prices.
-
-The final model's mean squared values for test and train sets has no big variance which indicates that the final model is not ovetfitting or underfitting.
 
 ## Recommendations 
 
@@ -112,6 +109,11 @@ The final model's mean squared values for test and train sets has no big varianc
 
 ## Next Step
 
-- In order to provide more thorough analysis and suggestion, some more features could be explored further, like school district, crime statistics, household income, and public transportation.
-- Mortgage interest rates and  inventory on the market also impact housing prices.
-- More concrete insights can be reached with a longer period of housing price history.
+- In order to provide more thorough analysis and suggestion, some more features could be explored further, like school district, crime statistics, household income, and public transportation
+- Mortgage interest rates and  inventory on the market also impact housing prices
+- More concrete insights can be reached with a longer period of housing price history
+
+
+```python
+
+```
