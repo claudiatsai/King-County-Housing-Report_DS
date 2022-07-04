@@ -46,17 +46,11 @@ Boolean Data
 
 ## How does location impact housing price?
 
-
-```python
-![zipcode_price.png](attachment:zipcode_price.png)
-```
+<img src = "image/zipcode_price.png"/>
 
 From above graph, the highest average housing price is in zip code 98039, which is way higher than the 2nd place, which average housing price in zip code 98004.
 
-
-```python
-![lat_long.png](attachment:lat_long.png)
-```
+<img src="image/lat_long.png"/>
 
 Light blue to dark red means the housing prices increase.<br>
 One observation is that higher housing prices in the North of King County.<br>
@@ -64,22 +58,16 @@ Another observation is that higher prices homes are on the waterfront because yo
 
 ### Do seasons impact the housing price?
 
-![season_price.png](attachment:season_price.png)
+<img src="image/season_price.png"/>
 
 - Spring has the highest average housing price followed by summer and fall
 - There is no big difference of average price within seasons
 
 ### Which season or month are houses more available?
 
-![season_quantity.png](attachment:season_quantity.png)
+<img src="image/season_quantity.png"/>
 
-
-```python
-![month_quantity.png](attachment:month_quantity.png)
-```
-
-    zsh:1: number expected
-
+<img src="image/month_quantity.png"/>
 
 More houses are available in spring and summer.<br>
 If drill down to each month, more houses are available from March to August.
@@ -87,16 +75,16 @@ If drill down to each month, more houses are available from March to August.
 
 ### Where to find better grade houses and what is the price like in each grade ?
 
-![grade_price.png](attachment:grade_price.png)
+<img src ="image/grade_price.png"/>
 
 From the above graph, housing prices to increase with a higher grade.<br>
 From grade 7 (average) to 10 (good), the median housing price are below $1M.
 
-![grade_quantity.png](attachment:grade_quantity.png)
+<img src="image/grade_quantity.png"/>
 
 Average grade houses are the most available followed by good and better.
 
-![grade_loc.png](attachment:grade_loc.png)
+<img src="image/grade_loc.png"/>
 
 Luxury and excellent grade houses are on waterfront.
 
@@ -111,7 +99,7 @@ The report provides several linear regression models to explain how the features
 
 ![King%20County%20Market%20Report.png](attachment:King%20County%20Market%20Report.png)
 
-![predicted_test.png](attachment:predicted_test.png)
+<img src ="image/predicted_test.png"/>
 
 With Recursive Feature Elimination, 80 features is chosen and the final model accounts for 74 % of the housing prices.
 
